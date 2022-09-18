@@ -4,29 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mark 15</title>
+    <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+    <h1> Mark 15 - Stocks</h1>
+
     <main>
-        <label>
+        <label for="current-Stock-Price">
             "Enter currentStockPrice"
+        <input id="currentStockPrice" />
         </label> 
-        <input id="currentStockPrice">
-    </main>
-    <main>
-        <label>
+        <label for="">
             "Enter Stock Purchase Price"
+        <input type="number ", id="StockPurchasePrice" />
         </label> 
-        <input id="StockPurchasePrice">
-    </main>
-    <main>
-        <label>
+        <label for="">
             "Enter Number of Stocks Bought" 
+        <input type="number", id="numberOfStocks" />
         </label> 
-        <input id="numberOfStocks">
-    </main>
-    <button>
+
+        <button id="tellMe">
         Tell Me
-    </button>
+        </button>
+    
+
+    <div id="outputBox">
+
+    </div>
+
+    <script src="app.js"></script>
+    </main>
 </body>
 </html>
